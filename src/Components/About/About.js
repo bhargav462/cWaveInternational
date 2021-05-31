@@ -1,9 +1,54 @@
 import React from 'react';
 import classes from './About.module.css'
-import pic1 from './../../Assets/4.jpg'
+import pic1 from './../../Assets/team/harish.jpg'
+import pic2 from './../../Assets/team/chandu.jpg'
+import pic3 from './../../Assets/team/Bhargav.jpg'
 
 const About = () => {
     return(<div className={classes["container"]}>
+
+        <div className={classes["fifth-container"]}>
+            <h1>What we do</h1>
+            <div className={classes["inside-fifth"]}>
+                <div className={classes["left"]}>
+                   <h3>Design and Development</h3>
+                   <ul>
+                      <li>Architecture Design</li>
+                      <li>User Interface Design</li>
+                      <li>Wireframe and Template Design</li>
+                      <li>Creative Graphic Design </li>
+                      <li>Project Code Implementation</li>
+                      <li>Content Management (CMS)</li>
+                      <li>Content Migration Services</li>
+                   </ul>
+                </div>
+
+                <div className={classes["middle"]}>
+                     <h3>Web Applications</h3>
+                     <ul>
+                        <li>E-Commerce Applications</li>
+                        <li>CRM Integration</li>
+                        <li>Social Media Applications</li>
+                        <li>Site Globalization/Multi-Language</li>
+                        <li>Interactive Rich Media</li>
+                        <li>Mobile Device Applications</li>
+                     </ul>
+                </div>
+
+                <div className={classes["right"]}>
+                    <h3>Consulting & Planning</h3>
+                    <ul>
+                        <li>Business Requirements Evaluation</li>
+                        <li>Strategic Website Evaluation</li>
+                        <li>Technical Architecture Planning</li>
+                        <li>Information Architecture Planning</li>
+                        <li>Content & Application Analysis</li>
+                        <li>Usability Testing </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div className={classes["first-container"]}>
             <hr style={{width:'30px',marginBottom:"24px"}}/>
             <h3>Helping companies thrive online.</h3>
@@ -74,25 +119,38 @@ const About = () => {
                     <img src={pic1} className={classes["profilePic"]} />
                 </div>
                 <h1>Hari</h1>
-                <h3>Manager</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                <h3>Founder and COO</h3>
+                {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
-                </p>
+                </p> */}
+            </div>
+
+            <div className={classes["middle"]}>
+                <div className={classes["image-container"]}>
+                    <img src={pic2} className={classes["profilePic"]} />
+                </div>
+                <h1>Chandu</h1>
+                <h3>Project Manager : IT Services</h3>
+                {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                </p> */}
             </div>
 
             <div className={classes["right"]}>
                 <div className={classes["image-container"]}>
-                    <img src={pic1} className={classes["profilePic"]} />
+                    <img src={pic3} className={classes["profilePic"]} />
                 </div>
                 <h1>Bhargav</h1>
-                <h3>Coder</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
+                <h3>IT Service Delivery Manager</h3>
+                {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
-                </p>
+                </p> */}
             </div>
         </div>
 

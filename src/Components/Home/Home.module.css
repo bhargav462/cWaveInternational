@@ -22,6 +22,10 @@
     justify-content: center;
 }
 
+.image-container > *{
+    flex-basis: 100%;
+}
+
 .third-container{
     background-color: #f7f7f7;
     display: flex;
@@ -138,6 +142,10 @@
 @media screen and (max-width: 1090px){
     .third-container{
         flex-direction: column;
+    }
+
+    .second-container{
+        width: auto;
     }
 
     .blue{

@@ -2,6 +2,10 @@ import React from 'react';
 import Carousal from './Carousal/Carousal'
 import Carousal2 from './Carousal2/Carousal'
 import company1 from './../../Assets/redcarvings.jpg'
+import company2 from './../../Assets/sfs.png'
+import company3 from './../../Assets/dav.jpg'
+import blur from './../../Assets/blur.jpg'
+
 import classes from './Home.module.css'
 import Slider from './Slider/Slider'
 
@@ -17,7 +21,15 @@ const Home = () => {
                   With a diverse repertoire of digital expertise. We have worked across a range of mediums to deliver targeted, measurable results for companies like
                </p>
                <div className={classes["image-container"]}>
-                   <img src={company1} style={{height: "100px",width: "100px",marginTop: '20px'}}/>
+                    <div>
+                        <img src={company1} style={{height: "100px",width: "100px",marginTop: '20px'}}/>
+                    </div>
+                    <div>
+                        <img src={company2} style={{height: "100px",width: "100px",marginTop: '20px'}}/>
+                    </div>
+                    <div>
+                        <img src={company3} style={{height: "100px",width: "100px",marginTop: '20px'}}/>
+                    </div>
                </div>
            </div>
            <div className={classes["third-container"]}>
@@ -76,7 +88,7 @@ const Home = () => {
                </div>
            </div>
 
-           <div style={{background:`url(${"https://crazyheads.com/img/home-reach.jpg"})`,backgroundSize:'cover',height:'630px'}} className={classes["fourth-container"]}>
+           <div style={{background:`url(${blur})`,backgroundSize:'cover',height:'630px'}} className={classes["fourth-container"]}>
                <div style={{height:"100%"}}>
                     <div className={classes["box-container"]}>
                         <div className={classes["left-box"]}>

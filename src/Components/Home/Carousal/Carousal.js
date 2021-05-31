@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import classes from './Carousal.module.css';
-import land1 from './carousal1.jpg'
-import land2 from './carousal1.jpg'
+import land1 from './../../../Assets/background1.jpg'
 
 class Corousal extends Component{
 
     state = {
         x: 0,
-        crop: [land1,land2],
+        crop: [land1,land1],
         farmer: null,
         data:{
             h1:["Please Don't Hire Us","We Build What Users Need"],

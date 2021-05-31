@@ -1,7 +1,3 @@
-.container{
-    margin-top: 50px;
-}
-
 .first-container{
     padding-left: 12%;
     padding-right: 12%;
@@ -135,23 +131,50 @@
 }
 
 .profilePic{
-   height: 100px;
-   width: 100px;
+   height: 200px;
+   width: 200px;
    border-radius: 50%;
    margin-bottom: 32px;
 }
 
-.left h1,.right h1{
+.left h1,.right h1,.middle h1{
     font-size: 36px;
     text-align: center;
     font-weight: 300;
 }
 
-.left h3, .right h3{
+.left h3, .right h3,.middle h3{
     font-size: 24px;
     text-align: center;
     font-weight: 400;
     margin-bottom: 32px;
+}
+
+.fifth-container{
+   background-color: #3eabb8;
+   padding: 120px 0;
+   color: #fff;
+   margin-bottom: 64px;
+}
+
+.fifth-container h1{
+    margin-bottom: 32px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.inside-fifth{
+    display: flex;
+}
+
+.inside-fifth > *{
+    flex-basis: 100%;
+    padding-left: 3%;
+}
+
+.inside-fifth * h3{
+    text-align: left;
 }
 
 @media screen and (max-width:700px){
@@ -163,6 +186,10 @@
         margin-bottom: 64px;
     }
 
+    .middle{
+        margin-bottom: 64px;
+    }
+
     .third-container{
         flex-direction: column;
         padding: 50px;
@@ -171,5 +198,10 @@
     .fourth-container{
         flex-direction: column;
         padding: 50px;
+    }
+
+    .inside-fifth{
+        flex-direction: column;
+        padding-left: 8%;
     }
 }
