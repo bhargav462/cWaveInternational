@@ -7,8 +7,8 @@ class Corousal extends Component{
         x: 0,
         data:{
             h1:["No Bullshit !!! Kickass & Quality Work!!! Beyond Expectations!! All the best!!!",
-                "We loved working with Crazyheads. We had a deadline to meet in 4 days, getting the entire video done with the concept, voicing and animations seemed to be impossible but CrazyHeads made it happen. They also accommodated all our edit requests and were prompt at every stage.",
-                "Whether you want to create a new website for your business or redesigning your current site, you can’t go wrong if you choose CrazyHeads to do the job. Creativity at its best ! Good job."
+                "We loved working with cWaveInternational. We had a deadline to meet in 4 days, getting the entire video done with the concept, voicing and animations seemed to be impossible but cWaveInternational made it happen. They also accommodated all our edit requests and were prompt at every stage.",
+                "Whether you want to create a new website for your business or redesigning your current site, you can’t go wrong if you choose cWaveInternational to do the job. Creativity at its best ! Good job."
             ],
             h3:["ISHAN PADGOTRA, FAREYE.",
                 "SOURABH DEORAH. CEO, WORK ADVANTAGE.",
