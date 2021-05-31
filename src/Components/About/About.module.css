@@ -1,0 +1,175 @@
+.container{
+    margin-top: 50px;
+}
+
+.first-container{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.first-container h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.first-container p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.second-container{
+    display: flex;
+    background-color: #3eabb8;
+    padding: 120px 5%;
+    color: white;
+    margin-top: 100px;
+}
+
+.second-container > *{
+    flex-basis: 50%;
+}
+
+.second-container .left h1{
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.second-container .left h3{
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+.second-container .left p{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.second-container .left{
+    margin-right: 10px;
+}
+
+.second-container .right{
+    margin-left: 10px;
+}
+
+.icon-content{
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.icon{
+    color: white;
+    margin-right: 30px;
+}
+
+.icon-content .content h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 16px;
+} 
+
+.icon-content .content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.third-container{
+    display: flex;
+    padding: 100px;
+}
+
+.third-container .left{
+    padding-right: 10px;
+}
+
+.third-container .right{
+    padding-left: 10px;
+}
+
+.third-container h1{
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.third-container p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.fourth-container{
+    display: flex;
+    background-color: #3eabb8;
+    padding: 120px 5%;
+    color: white;
+    margin-top: 100px;
+}
+
+.fourth-container > *{
+    flex-basis: 50%;
+}
+
+.fourth-container .left{
+    margin-right: 10px;
+}
+
+.fourth-container .right{
+    margin-left: 10px;
+}
+
+.image-container{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profilePic{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   margin-bottom: 32px;
+}
+
+.left h1,.right h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.left h3, .right h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width:700px){
+    .second-container{
+        flex-direction: column;
+    }
+
+    .left{
+        margin-bottom: 64px;
+    }
+
+    .third-container{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .fourth-container{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
